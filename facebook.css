@@ -1,0 +1,40 @@
+#headername {
+	margin-left: 40% ;
+	color: white; 
+	font-family: "Comic Sans MS", Times serif;
+	display:inline-block;
+	overflow: auto;
+}
+#headericons {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3em;	
+	padding-right: 15px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-top: 17px;
+	overflow: auto;
+}
+a:hover, a:focus{
+	background-color: rgb(39,69,132);
+}
+.tabs {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3em;	
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-top: 17px;
+	overflow: auto;
+}
+.intabs {
+	height: 50%;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: gainsboro;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 1em
+}
