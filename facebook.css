@@ -3,21 +3,23 @@
 	color: white; 
 	font-family: "Comic Sans MS", Times serif;
 	display:inline-block;
-	overflow: none;
-	height: 1.5em;
+	overflow: visible;
+	height: 0.5em;
 }
-a : hover, a : focus{
-	background-color: white; /*rgb(39,69,132);*/
+.tabs:hover{
+	background-color: rgb(39,69,132);
 }
 .tabs {
 	color: white;
 	text-decoration: none;
-	font-size: 1.3em;	
-	padding-right: 15px;
+	font-size: 1.2em;	
+	font-family: "Arial";
+	padding-right: 18px;
 	padding-bottom: 15px;
 	padding-left: 15px;
 	padding-top: 17px;
-	overflow: auto;
+	overflow: visible;
+	cursor: pointer;
 }
 .tabcontent {
 	height: 50%;
