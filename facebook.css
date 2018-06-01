@@ -3,20 +3,11 @@
 	color: white; 
 	font-family: "Comic Sans MS", Times serif;
 	display:inline-block;
-	overflow: auto;
+	overflow: none;
+	height: 1.5em;
 }
-#headericons {
-	color: white;
-	text-decoration: none;
-	font-size: 1.3em;	
-	padding-right: 15px;
-	padding-bottom: 25px;
-	padding-left: 15px;
-	padding-top: 17px;
-	overflow: auto;
-}
-button:hover, button:focus{
-	background-color: rgb(39,69,132);
+a : hover, a : focus{
+	background-color: white; /*rgb(39,69,132);*/
 }
 .tabs {
 	color: white;
@@ -28,7 +19,7 @@ button:hover, button:focus{
 	padding-top: 17px;
 	overflow: auto;
 }
-.intabs {
+.tabcontent {
 	height: 50%;
 	width: 50%;
 	margin-right: auto;
@@ -37,4 +28,13 @@ button:hover, button:focus{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 1em
+}
+#intabsimg {
+	width: 2em;
+	height: 2em;
+	border-radius: 1em;
+}
+#intabsheading {
+	display: inline-block;
+	padding: 3px;
 }
