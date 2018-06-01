@@ -3,83 +3,80 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="facebook.css">
 	<title>Facebook Interface Blog</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-</head>
-<body>
-	<header style="background-color: #3B5998; top: 0px; width: 100%; margin-left: 0px; margin-right: 0px; position: absolute;">
+	<link rel="icon" type="image/jpg" href="logo.jpg">
+	<header style="background-color: #3B5998; top: 0px;left: 0px; right: 0px; position: absolute;">
 		<h3 id="headername" >Welcome to my blog </h3>
 			<div style="float: right;  display: inline-flex;">
-			<button id="headericons" href="contacts.html">Con</button>
-			<button id="headericons" href="about.html">Abo</button>
-			<button id="headericons" href="info.html">Inf</button>
-			<button id="headericons" href="techtips.html">Tip</button>	
-			<button id="headericons" href="games.html">Gam</button>
+			<a class="tabs" id="defaultOpen" onclick="openTabs('abouttab', this, 'gainboro')">ABOUT</a>
+			<a class="tabs" onclick="openTabs('infotab', this, 'gainboro')">INFO</a>
+			<a class="tabs" onclick="openTabs('contactstab', this, 'gainboro')">CONTACT</a>
+			<a class="tabs" onclick="openTabs('gamestab', this, 'gainboro')">GAMES</a>
+			<a class="tabs" onclick="openTabs('tipstab' ,this ,'gainboro')">TIPS</a>
 		</div>
 	</header>
-	
+</head>
+<body>
 	<div style="background-color: gainsboro" >
 		<img style="width: 50%; margin-left: auto; margin-right: auto; display: block" src="wall.jpg">
 		<img style="width: 10em; height: 10em; margin-left: 18em; border: 2px black solid;" src="wall.jpg">
 		<div style="display: inline-flex; background-color: #3B5998;">
-			<button class="tabs" href="tips">ABOUT</button>
-			<button class="tabs" href="tips">INFO</button>
-			<button class="tabs" href="tips">CONTACT</button>
-			<button class="tabs" href="tips">GAMES</a>
-			<button class="tabs" href="tips">TIPS</button>
+			<a class="tabs" id="defaultOpen" onclick="openTabs('abouttab', this, 'gainboro')">ABOUT</a>
+			<a class="tabs" onclick="openTabs('infotab', this, 'gainboro')">INFO</a>
+			<a class="tabs" onclick="openTabs('contactstab', this, 'gainboro')">CONTACT</a>
+			<a class="tabs" onclick="openTabs('gamestab', this, 'gainboro')">GAMES</a>
+			<a class="tabs" onclick="openTabs('tipstab' ,this ,'gainboro')">TIPS</a>	
 		</div>
 	</div>	
-	<div id="techtab">
-		<div class="intabs">
+<!--	<div id="techtab"> -->
+		<div id="abouttab" class="tabcontent">
 			<div>
 				<div style="float: left;">
-					<img style="width: 2em; height: 2em; border-radius: 1em; " src="wall.jpg">
-					<h3 style="display: inline-block; padding: 3px"> Technological Tip</h3>
+					<img id="intabsimg" src="wall.jpg">
+					<h3 id="intabsheading"> Technological Tip</h3>
 				</div>
 				<div>
 					<img style="width: 50%; height: 50%; padding-top: 75px; text-align: center;" src="wall.jpg">
 				</div>
 			</div>
 		</div>
-		<div class="intabs">
+		<div id="infotab" class="tabcontent">
 			<div>
 				<div style="float: left;">
-					<img style="width: 2em; height: 2em; border-radius: 1em; " src="wall.jpg">
-					<h3 style="display: inline-block; padding: 3px"> Technological Tip</h3>
+					<img id="intabsimg" src="wall.jpg">
+					<h3 id="intabsheading"> Technological Tip</h3>
 				</div>
 				<div>
 					<p style="width: 50%; height: 40%; padding-top: 75px; text-align: center;">Hey there! Thanks for checking upon this website...</p>
 				</div>
 			</div>
 		</div>
-		<div class="intabs">
+		<div id="contactstab" class="tabcontent">
 			<div>
 				<div style="float: left;">
-					<img style="width: 2em; height: 2em; border-radius: 1em; " src="wall.jpg">
-					<h3 style="display: inline-block; padding: 3px"> Technological Tip</h3>
+					<img id="intabsimg" src="wall.jpg">
+					<h3 id="intabsheading"> Technological Tip</h3>
 				</div>
 				<div>
 					<img style="width: 50%; height: 40%; padding-top: 75px; text-align: center;" src="wall.jpg">
 				</div>
 			</div>
 		</div>
-		<div class="intabs">
+		<div id="gamestab" class="tabcontent">
 			<div>
 				<div style="float: left;">
-					<img style="width: 2em; height: 2em; border-radius: 1em; " src="wall.jpg">
-					<h3 style="display: inline-block; padding: 3px"> Technological Tip</h3>
+					<img id="intabsimg" src="wall.jpg">
+					<h3 id="intabsheading"> Technological Tip</h3>
 				</div>
 				<div>
 					<p style="width: 50%; height: 40%; padding-top: 75px; text-align: center;">Hey there! Thanks for checking upon this website...</p>
 				</div>
 			</div>
 		</div>
-		<div class="intabs">
+		<div id="tipstab" class="tabcontent">
 			<div>
 				<div style="float: left; ">
-					<img style="width: 2em; height: 2em; border-radius: 1em; " src="wall.jpg">
-					<h3 style="display: inline-block; padding: 3px"> Technological Tip</h3>
+					<img id="intabsimg" src="wall.jpg">
+					<h3 id="intabsheading"> Technological Tip</h3>
 				</div>
 				<div>
 					<img style="width: 50%; height: 40%; padding-top: 75px; text-align: center;" src="wall.jpg">
@@ -88,8 +85,8 @@
 		</div>
 	</div>
 
-
-	<div class="intabs" style="text-align: center">
+<!--
+	<div class="tabcontent" style="text-align: center">
 		<div style=" font-family:Comic Sans MS, Times serif;">
 			<h3 style="text-decoration: underline;">EDUCATION</h3>
 		</div>
@@ -99,11 +96,28 @@
 			<p>Former Student<sub>(High school)</sub> in <b>BALAJI PUBLIC SCHOOL, SSC</b>  </p>
 		</div>
 	</div>	
-
+-->
 <script>
-	
-
+function openTabs(tabName,elmnt,color) {
+		var i, tabcontent, tabs;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		tabs =  document.getElementsByClassName("tabs");
+		for (i = 0; i < tabs.length; i++) {
+			tabs[i].style.backgroundColor = "";
+		}
+		document.getElementById(tabName).style.display = "block";
+	    elmnt.style.backgroundColor = color;
+	}	
+document.getElementById("defaultOpen").click();
 </script>
+
+
+
 
 </body>
 </html>
+
+
