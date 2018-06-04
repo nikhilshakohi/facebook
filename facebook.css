@@ -1,3 +1,4 @@
+
 #headername {
 	margin-left: 40% ;
 	color: white; 
@@ -27,32 +28,32 @@
 	text-decoration: none;
 	font-size: 1.2em;	
 	font-family: "Arial";
-	padding-right: 18px;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-top: 17px;
 	overflow: visible;
 	cursor: pointer;	
 }
 #tabs:hover {
-	color: black;	
+	color: white;
+	background-color: rgb(39,69,132);	
 }
 #tabs:focus{
 	background-color: rgb(39,69,132);
 	color: black;
 }
-.tabcontent {
+  .tabcontent {
 	display: none;
+} 
+.indtabcontent {
 	height: 50%;
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: gainsboro;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	background-color: whitesmoke;
 	border-radius: 1em;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
+
 }
 
 /* Fade in tabs */
@@ -69,8 +70,17 @@
 	width: 2em;
 	height: 2em;
 	border-radius: 1em;
+	margin-left: 1em;
+	margin-top: 0.8em;	
 }
 #intabsheading {
 	display: inline-block;
+	font-family: Arial;
 	padding: 3px;
+}
+p {
+	font-family: Georgia;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
