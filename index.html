@@ -2,229 +2,252 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="facebook.css">
-  <title>Facebook Interface Blog</title>
-  <link rel="icon" type="image/jpg" href="logo.jpg">
-  <header style="background-color: #3B5998; top: 0px;left: 0px; right: 0px; position: absolute;">
-    <h3 id="headername" >Welcome to my blog </h3>
-      <div style="float: right;  display: inline-flex;">
-      <a class="tabs" onclick="openTabs('abouttab', event)" style="padding-bottom: 20px;" id="defaultOpen">About</a>
-      <a class="tabs" onclick="openTabs('infotab', event)" style="padding-bottom: 20px;" >Info</a>
-      <a class="tabs" onclick="openTabs('contactstab',event)" style="padding-bottom: 20px;" >Contact</a>
-      <a class="tabs" onclick="openTabs('funtab', event)" style="padding-bottom: 20px;" >Fun</a>
-      <a class="tabs" onclick="openTabs('tipstab' , event)" style="padding-bottom: 20px;" >Tips</a>
-    </div>
-  </header>
+  <title>Nikhil Shakohi | Facebook</title>
+  <link rel="icon" type="image/png" href="facebook-icon-1.png">
 </head>
-<body style="background-color: gainsboro;">
-  <div style="background-color: silver;" >
-    <img style="width: 75%; margin-left: auto; margin-right: auto; margin-top: 1em; display: block" src="cover.jpg">
-    <img style="width: 10em; height: auto; margin-left: 12em; border: 2px black solid; margin-top: -15em;" src="nikhil.jpg">
-    <div style="display: inline-flex; margin-top: -3.5em; position: absolute;">
-      <a class="tabs" id="tabs" onclick="openTabs('abouttab',event)">About</a>
-      <a class="tabs" id="tabs" onclick="openTabs('infotab',event)">Info</a>
-      <a class="tabs" id="tabs" onclick="openTabs('contactstab',event)">Contact</a>
-      <a class="tabs" id="tabs" onclick="openTabs('funtab',event)">Fun</a>
-      <a class="tabs" id="tabs" onclick="openTabs('tipstab' ,event)">Tips</a> 
+<header id="header">
+    <h3 id="headername" >Nikhil Shakohi</h3>
+  </header>
+<body>
+  <div id="profileHeader">
+    <img id="profileCover" src="facebook-cover.jpg">
+    <img id="profileImage" src="profileImage.jpg">
+    <div id="profileName">Nikhil Shakohi <img id="tickIcon" src="tickIcon.png"></div><br>
+    <div id="profileNavDiv">
+      <div id="abouttabNav" class="profileNavsubDiv currentTabNav"><a class="profileNav" onclick="openTabs('abouttab',event)">About</a></div>
+      <div id="infotabNav" class="profileNavsubDiv"><a class="profileNav" onclick="openTabs('infotab',event)">Info</a></div>
+      <div id="contactstabNav" class="profileNavsubDiv"><a class="profileNav" onclick="openTabs('contactstab',event)">Contact</a></div>
+      <div id="funtabNav" class="profileNavsubDiv"><a class="profileNav" onclick="openTabs('funtab',event)">Fun</a></div>
+      <div id="tipstabNav" class="profileNavsubDiv"><a class="profileNav" onclick="openTabs('tipstab' ,event)">Tips</a></div> 
     </div>
-  </div>  
+  </div>
 <!--  <div id="techtab"> -->
-    <div id="abouttab" class="tabcontent" >
+    <div id="abouttab" class="tabcontent currentTab">
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="nikhil.jpg">
-          <h3 id="intabsheading">INTRO</h3>
-        </div>
-        <div>
-          <p style="width: auto; height: 40%; padding: auto; text-align: center;">Hey there! This is NIKHIL SHAKOHI...
-        </p> 
-
-        <br><br>
-        </div>
+          <h2>About</h2>
+          <div class="aboutHeading">Work</div>
+          <div class="aboutLine">
+            <img class="subIcon" src="tcsIcon.png">
+            <div>
+              System Engineer at Tata Consultancy Services
+              <div class="workPeriod">Jul 2019 - present</div>
+            </div>
+          </div>
+          <div class="aboutHeading">University</div>
+          <div class="aboutLine">
+            <img class="subIcon" src="collegeIcon.jfif">
+            <div>
+              Studied Electronics and Communication Engineering at Andhra University
+              <div class="workPeriod">Jul 2015 - Jun 2019</div>
+            </div>
+          </div>
+          <div class="aboutHeading">Intermediate</div>
+          <div class="aboutLine">
+            <img class="subIcon" src="interCollegeIcon.png">
+            <div>
+              Went to Ascent Classes
+              <div class="workPeriod">Jul 2013 - Jun 2015</div>
+            </div>
+          </div>
+          <div class="aboutHeading">High School</div>
+          <div class="aboutLine">
+            <img class="subIcon educationIcon" src="educationIcon.png">
+            <div>
+              Went to Balaji Public School
+              <div class="workPeriod">Jun 2005 - Jun 2013</div>
+            </div>
+          </div>
+          <h2>Places Lived</h2>
+          <div class="aboutLine">
+            <img class="subIcon" src="hyderabadIcon.png">
+            <div>
+              Hyderabad
+              <div class="workPeriod">Current city</div>
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img class="subIcon" src="visakhapatnamIcon.jpg">
+            <div>
+              Visakhapatnam
+              <div class="workPeriod">Home town</div>
+            </div>
+          </div>
+          <h2>Connections</h2>
+          <div class="aboutLine">
+            <a target="_blank" title="Facebook | Nikhil Shakohi" href="https://www.facebook.com/nikhil.shakohi.5"><img class="subIcon" src="facebook-icon-1.png"></a>
+            <a target="_blank" title="Instagram | Nikhil Shakohi" href="https://www.instagram.com/nikhilshakohi/"><img class="subIcon" src="instagramIcon.png"></a>
+            <a target="_blank" title="Twitter | Nikhil Shakohi" href="https://twitter.com/ShakohiN"><img class="subIcon" src="twitterIcon.png"></a>
+            <a target="_blank" title="Github | Nikhil Shakohi" href="https://github.com/nikhilshakohi"><img class="subIcon" src="githubIcon.png"></a>
+            <a target="_blank" title="LinekdIn | Nikhil Shakohi" href="https://www.linkedin.com/in/nikhil-shakohi-060561126/"><img class="subIcon" src="linkedinIcon.png"></a>
+          </div>
       </div>
-    <div class="indtabcontent">
-        <div  style="margin-left: auto; background-color: silver"">
-          <img id="intabsimg" src="nikhil.jpg">
-          <h3 id="intabsheading"> STUDY</h3>
-        </div>
-        <div>
-          <p style="width: auto; height: 40%; padding: auto; text-align: center;"> 
-      
-          Studying<sub>(BTech Degree)</sub> in ANDHRA UNIVERSITY, ECE <br> 
-          Former Student<sub>(Intermediate)</sub> in ASCENT COLLEGE, MPC <br> 
-          Former Student<sub>(High school)</sub> in BALAJI PUBLIC SCHOOL, SSC  
-        
-        <br><br>
-        </div>
-      </div>
-
     </div>
+
     <div id="infotab" class="tabcontent">
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="info.jpg">
-          <h3 id="intabsheading">Information </h3>
-        </div>
+         <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+              My Projects and Stuff
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
-          <p style="width: auto; height: 40%; padding: auto; text-align: center;">
             This blog was coded and developed using HTML, CSS and JAVASCRIPT <br>
             The platforms used in coding this blog include <br>1)SUBLIME TEXT(pc application),<br>2) GITHUB(website) <br>3) GOOGLE(web search engine) and <br>some creative ideas and interest. <br>SUBLIME TEXT is used for coding the program and running it in the web browser <br>GITHUB is used for posting the codes in the internet <br>Previous project: PUBLIC OPINION <br> This is an interactive website developed using HTML, CSS, JAVASCRIPT, PHP, SQL 
-          </p> <br><br>
         </div>
       </div>
     </div>
     <div id="contactstab" class="tabcontent">
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="contact.jpg">
-          <h3 id="intabsheading">Stay in Contact</h3>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+                Stay in Contact 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
-          <p>
-            This blog was is created just out of my interest;) <br> Any suggestions or comments are heartly encouraged. <br>You can chat with me <u>@✉nshakohi4@gmail.com</u> or visit my social media links
-          </p>
+            This blog was is created just out of my interest;) <br> Any suggestions or comments are heartly encouraged. <br>You can chat with me <u>@nikhilshakohi4@gmail.com</u> or visit my social media links
+            <div class="aboutLine">
+            <a target="_blank" title="Facebook | Nikhil Shakohi" href="https://www.facebook.com/nikhil.shakohi.5"><img class="subIcon" src="facebook-icon-1.png"></a>
+            <a target="_blank" title="Instagram | Nikhil Shakohi" href="https://www.instagram.com/nikhilshakohi/"><img class="subIcon" src="instagramIcon.png"></a>
+            <a target="_blank" title="Twitter | Nikhil Shakohi" href="https://twitter.com/ShakohiN"><img class="subIcon" src="twitterIcon.png"></a>
+            <a target="_blank" title="Github | Nikhil Shakohi" href="https://github.com/nikhilshakohi"><img class="subIcon" src="githubIcon.png"></a>
+            <a target="_blank" title="LinekdIn | Nikhil Shakohi" href="https://www.linkedin.com/in/nikhil-shakohi-060561126/"><img class="subIcon" src="linkedinIcon.png"></a>
+          </div>
         </div>
       </div>
     </div>
     <div id="funtab" class="tabcontent">
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="laugh.jpg">
-          <h3 id="intabsheading"> Life Joke</h3>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+                Life Joke 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
           <img style="height: auto; width: 100%; text-align: center" src="meme1.jpg"> <br>        </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="laugh.jpg">
-          <h3 id="intabsheading">College Joke</h3>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+                College Joke 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
           <img style="height: auto; width: 100%; text-align: center" src="meme2.jpg"> <br>        </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="laugh.jpg">
-          <h3 id="intabsheading">College Joke</h3>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+                College Joke 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
           <img style="height: auto; width: 100%; text-align: center" src="meme3.jpg"> <br>        </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="laugh.jpg">
-          <h3 id="intabsheading">Exam Joke</h3>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+                Exam Joke 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
           <img style="height: auto; width: 100%; text-align: center" src="meme4.jpg"> <br>        </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="laugh.jpg">
-          <h3 id="intabsheading">Exam Joke</h3>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="profileImage.jpg">
+            <div class="postHeading">
+                Exam Joke 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
           <img style="height: auto; width: 100%; text-align: center" src="meme5.jpg"> <br>        </div>
       </div>
     </div>
     <div id="tipstab" class="tabcontent">
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="youtube.jpg">
-          <h3 id="intabsheading"> Youtube Tip</h3><br>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="youtube.jpg">
+            <div class="postHeading">
+                YouTube Tip 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
-          <p>
             You can download any Youtube video in the browser by adding 'ss' before youtube in the link and select the desired resolution and go for it. <br>Eg.To download a video, press 'ss' as follows: https://www.ssyoutube.com/watch?v=Io0fBr1XBUA and pressing enter This is completely legal copyrighted by saveFrom.net 
-          </p>
         </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="settings.jpg">
-          <h3 id="intabsheading"> Phone Tip</h3><br>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="settings.jpg">
+            <div class="postHeading">
+                Phone Tip 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
-          <p>
              Never clear the recent apps in your phone. This will slow down your phone by a small amount as killing the recent apps will require more battery when you try to open the app again! <br>PS:External apps like cleanMaster will do the same thing to provide you additional RAM but it does drain your battery, so avoid them! 
-          </p>
         </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="settings.jpg">
-          <h3 id="intabsheading"> Chrome Tip</h3><br>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="settings.jpg">
+            <div class="postHeading">
+                Chrome Tip 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
-          <p>
              Ctrl+T opens a new tab and Ctrl+W closes corresponding tab in Chrome and finally; <br>Ctrl+Shift+T reopens an accidentally closed tab in Chrome! 
-          </p>
         </div>
       </div>
       <div class="indtabcontent">
-        <div style="margin-left: auto; background-color: silver">
-          <img id="intabsimg" src="settings.jpg">
-          <h3 id="intabsheading"> Computer Tip</h3><br>
-        </div>
+        <div class="aboutLine">
+            <img class="subIcon postIcon" src="settings.jpg">
+            <div class="postHeading">
+                Computer Tip 
+              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+            </div>
+          </div>
         <div>
-          <p>
             If your pc is hanged or stopped, you can directly open Task manager by pressing CTRL+SHIFT+ESC keys together! <br>[instead of ctrl+alt+del and selecting task manager things] 
-          </p>
         </div>
       </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br>
   </div>
 
                                 
- <div>
-      <a style="text-decoration: none; color: white; background-color: #3b5998; padding: 1em; position: fixed; right: 0; top: 40%; bottom: auto; border-radius: 1em; width: 15%;"target="_blank" href="https://www.facebook.com/nikhil.shakohi.5"> Facebook link</a> <br>
-      <a style="text-decoration: none; color: white; background-color:#c32aa3 ; padding: 1em;position: fixed; right: 0; top: 44.5%; bottom: auto;border-radius: 1em; width:15%; "target="_blank"  href="https://www.instagram.com/nikhil_shakohi4 "> Instagram link</a> <br>
-      <a style="text-decoration: none; color: white; background-color:#df4a32 ; padding: 1em;position: fixed; right: 0; top: 49%; bottom: auto;border-radius: 1em; width: 15%;" target="_blank" href=" https://plus.google.com/u/0/106913111577176641270"> Google+ link</a> <br>
-      <a style="text-decoration: none; color: white; background-color: #00b6f1; padding: 1em;position: fixed; right: 0; top: 53.5%; bottom: auto; border-radius: 1em; width:15%;" target="_blank" href="https://twitter.com/Shakohi_Nikhil "> Twitter link</a> <br>
-      
-  
-
-  </div>                              
                                 
 <script>
-/*
-function openTabs(tabName,elmnt,color) {
-    var i, tabcontent, tabs;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tabs =  document.getElementsByClassName("tabs");
-    for (i = 0; i < tabs.length; i++) {
-      tabs[i].style.backgroundColor = "";
-    }
-    document.getElementById(tabName).style.display = "block";
-      elmnt.style.backgroundColor = color;
-  } 
-document.getElementById("defaultOpen").click();
-*/
 
 function openTabs(tabName, evt) {
-    var i, tabcontent, tabs;
+    var i, tabcontent, tabsNav;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    tabs = document.getElementsByClassName("tabs");
-    for (i = 0; i < tabs.length; i++) {
-        tabs[i].className = tabs[i].className.replace(" active", "");
+    tabsNav = document.getElementsByClassName("profileNavsubDiv");
+    for (i = 0; i < tabsNav.length; i++) {
+        tabsNav[i].classList.remove("currentTabNav");
     }
     document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
+    document.getElementById(tabName+"Nav").classList.add("currentTabNav");
 }
-document.getElementById("defaultOpen").click();
 
 </script>
-
-
-<!--          <img style="height: 50%; width: auto; padding: 3em; text-align: center" src="wall.jpg"> <br><br>
- -->
-
 </body>
 </html>
 
