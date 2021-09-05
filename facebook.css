@@ -79,7 +79,7 @@ body{
 	display: block;
 }
 .indtabcontent {
-	width: 50%;min-width: 300px;
+	width: 50%;min-width: 30%;
 	margin-right: auto;	margin-left: auto;margin-top: 10px;margin-bottom: 10px;padding: 10px 20px;
 	border-radius: 10px;
 	background-color: white;
