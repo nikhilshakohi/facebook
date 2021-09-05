@@ -4,14 +4,21 @@
   <link rel="stylesheet" type="text/css" href="facebook.css">
   <title>Nikhil Shakohi | Facebook</title>
   <link rel="icon" type="image/png" href="facebook-icon-1.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <header id="header">
     <h3 id="headername" >Nikhil Shakohi</h3>
   </header>
 <body>
+  <div id="profileCoverModal" class="outsideModal" onclick="hideImage()">
+    <img class="imageModal" src="facebook-cover.jpg">
+  </div>
+  <div id="profilePicModal" class="outsideModal" onclick="hideImage()">
+    <img class="imageModal" src="profileImage.jpg">
+  </div>
   <div id="profileHeader">
-    <img id="profileCover" src="facebook-cover.jpg">
-    <img id="profileImage" src="profileImage.jpg">
+    <img id="profileCover" src="facebook-cover.jpg" onclick="showImage('profileCover')">
+    <img id="profileImage" src="profileImage.jpg" onclick="showImage('profilePic')">
     <div id="profileName">Nikhil Shakohi <img id="tickIcon" src="tickIcon.png"></div><br>
     <div id="profileNavDiv">
       <div id="abouttabNav" class="profileNavsubDiv currentTabNav"><a class="profileNav" onclick="openTabs('abouttab',event)">About</a></div>
@@ -21,7 +28,7 @@
       <div id="tipstabNav" class="profileNavsubDiv"><a class="profileNav" onclick="openTabs('tipstab' ,event)">Tips</a></div> 
     </div>
   </div>
-<!--  <div id="techtab"> -->
+
     <div id="abouttab" class="tabcontent currentTab">
       <div class="indtabcontent">
           <h2>About</h2>
@@ -80,6 +87,64 @@
             <a target="_blank" title="Github | Nikhil Shakohi" href="https://github.com/nikhilshakohi"><img class="subIcon" src="githubIcon.png"></a>
             <a target="_blank" title="LinekdIn | Nikhil Shakohi" href="https://www.linkedin.com/in/nikhil-shakohi-060561126/"><img class="subIcon" src="linkedinIcon.png"></a>
           </div>
+          <h2>Skills</h2>
+          <div class="aboutLine">
+            <img title="HTML" class="subIcon" src="htmlIcon.png">
+            <div>
+              <div class="workPeriod">HTML<span class="smallDot"></span>Simple to Learn!</div>
+              <progress value="100" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="CSS" class="subIcon" src="cssIcon.png">
+            <div>
+              <div class="workPeriod">CSS<span class="smallDot"></span>Interesting to Design!</div>
+              <progress value="100" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="JavaScript" class="subIcon" src="jsIcon.png">
+            <div>
+              <div class="workPeriod">Vanilla JS</div>
+              <progress value="90" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="PHP" class="subIcon" src="phpIcon.png">
+            <div>
+              <div class="workPeriod">PHP</div>
+              <progress value="90" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="MySQL" class="subIcon" src="sqlIcon.png">
+            <div>
+              <div class="workPeriod">MySQL</div>
+              <progress value="90" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="C" class="subIcon" src="cIcon.png">
+            <div>
+              <div class="workPeriod">C Language</div>
+              <progress value="75" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="C++" class="subIcon" src="cppIcon.png">
+            <div>
+              <div class="workPeriod">C++</div>
+              <progress value="75" max="100">
+            </div>
+          </div>
+          <div class="aboutLine">
+            <img title="Core Java" class="subIcon" src="javaIcon.png">
+            <div>
+              <div class="workPeriod">Core Java</div>
+              <progress value="70" max="100">
+            </div>
+          </div>
+          </div>
       </div>
     </div>
 
@@ -89,12 +154,17 @@
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
               My Projects and Stuff
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
-            This blog was coded and developed using HTML, CSS and JAVASCRIPT <br>
-            The platforms used in coding this blog include <br>1)SUBLIME TEXT(pc application),<br>2) GITHUB(website) <br>3) GOOGLE(web search engine) and <br>some creative ideas and interest. <br>SUBLIME TEXT is used for coding the program and running it in the web browser <br>GITHUB is used for posting the codes in the internet <br>Previous project: PUBLIC OPINION <br> This is an interactive website developed using HTML, CSS, JAVASCRIPT, PHP, SQL 
+            This is a Facebook profile page similar blog.. <br>developed using HTML, CSS and JAVASCRIPT.<br>
+            This was designed just for fun and to understand that anything can be designed using the basics.<br><br>
+            A project similar to Mobile Interface Blog hosted at <a class="pageLink" href="https://nikhilshakohi.github.io" target="_blank">nikhilshakohi.github.io</a>.<br><br>
+            Social website including user creation, posts upload and comments can also be created using basics of PHP, SQL for database management; available at <a class="pageLink" href="https://github.com/nikhilshakohi/socialweb">Social Web</a>.<br><br>
+            My Other projects can be found in <a class="pageLink" href="https://github.com/nikhilshakohi">Github</a>.<br><br>
+            I'm enthusiastic towards web development.<br>
+            My skills include HTML, CSS, JS, PHP, SQL.<br>
         </div>
       </div>
     </div>
@@ -103,18 +173,19 @@
         <div class="aboutLine">
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
-                Stay in Contact 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+                Stay in Touch
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
-            This blog was is created just out of my interest;) <br> Any suggestions or comments are heartly encouraged. <br>You can chat with me <u>@nikhilshakohi4@gmail.com</u> or visit my social media links
+            This blog was is created just out of my interest.. <br><br> You can contact me via:
             <div class="aboutLine">
             <a target="_blank" title="Facebook | Nikhil Shakohi" href="https://www.facebook.com/nikhil.shakohi.5"><img class="subIcon" src="facebook-icon-1.png"></a>
             <a target="_blank" title="Instagram | Nikhil Shakohi" href="https://www.instagram.com/nikhilshakohi/"><img class="subIcon" src="instagramIcon.png"></a>
             <a target="_blank" title="Twitter | Nikhil Shakohi" href="https://twitter.com/ShakohiN"><img class="subIcon" src="twitterIcon.png"></a>
             <a target="_blank" title="Github | Nikhil Shakohi" href="https://github.com/nikhilshakohi"><img class="subIcon" src="githubIcon.png"></a>
             <a target="_blank" title="LinekdIn | Nikhil Shakohi" href="https://www.linkedin.com/in/nikhil-shakohi-060561126/"><img class="subIcon" src="linkedinIcon.png"></a>
+            <a title="E-Mail | Nikhil Shakohi" href="mailto:nikhilshakohi@gmail.com"><img class="subIcon" src="mailIcon.png"></a>
           </div>
         </div>
       </div>
@@ -125,7 +196,7 @@
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
                 Life Joke 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -136,7 +207,7 @@
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
                 College Joke 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -147,7 +218,7 @@
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
                 College Joke 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -158,7 +229,7 @@
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
                 Exam Joke 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -169,7 +240,7 @@
             <img class="subIcon postIcon" src="profileImage.jpg">
             <div class="postHeading">
                 Exam Joke 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -182,7 +253,7 @@
             <img class="subIcon postIcon" src="youtube.jpg">
             <div class="postHeading">
                 YouTube Tip 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -194,7 +265,7 @@
             <img class="subIcon postIcon" src="settings.jpg">
             <div class="postHeading">
                 Phone Tip 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -206,7 +277,7 @@
             <img class="subIcon postIcon" src="settings.jpg">
             <div class="postHeading">
                 Chrome Tip 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -218,7 +289,7 @@
             <img class="subIcon postIcon" src="settings.jpg">
             <div class="postHeading">
                 Computer Tip 
-              <div class="smallWorkPeriod">14 Sep 2019 at 11:08</div>
+              <div class="smallWorkPeriod">02 Jun 2018 at 03:14</div>
             </div>
           </div>
         <div>
@@ -227,25 +298,37 @@
       </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br>
+
   </div>
 
                                 
                                 
 <script>
 
-function openTabs(tabName, evt) {
-    var i, tabcontent, tabsNav;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+  function showImage(image){
+    document.getElementById(image+"Modal").style.display="block";
+  }
+
+  function hideImage(){
+    var modals=document.getElementsByClassName("outsideModal");
+    for(var i=0;i<modals.length;i++){
+      modals[i].style.display="none";
     }
-    tabsNav = document.getElementsByClassName("profileNavsubDiv");
-    for (i = 0; i < tabsNav.length; i++) {
-        tabsNav[i].classList.remove("currentTabNav");
-    }
-    document.getElementById(tabName).style.display = "block";
-    document.getElementById(tabName+"Nav").classList.add("currentTabNav");
-}
+  }
+
+  function openTabs(tabName, evt) {
+      var i, tabcontent, tabsNav;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+      }
+      tabsNav = document.getElementsByClassName("profileNavsubDiv");
+      for (i = 0; i < tabsNav.length; i++) {
+          tabsNav[i].classList.remove("currentTabNav");
+      }
+      document.getElementById(tabName).style.display = "block";
+      document.getElementById(tabName+"Nav").classList.add("currentTabNav");
+  }
 
 </script>
 </body>
