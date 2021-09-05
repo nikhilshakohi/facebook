@@ -54,7 +54,7 @@ body{
 	font-weight: 700;font-size: xx-large;
 }
 #profileNavDiv{
-	width: 60%;text-align: left;
+	width: 40%;text-align: left;
 	margin-left: auto;margin-right: auto;padding: 10px 0 0 0;
 	border-top: 1px solid rgb(170, 170, 170);display: flex;justify-content: center;
 }
@@ -79,7 +79,7 @@ body{
 	display: block;
 }
 .indtabcontent {
-	width: 50%;min-width: 500px;
+	width: 50%;min-width: 400px;
 	margin-right: auto;	margin-left: auto;margin-top: 10px;margin-bottom: 10px;padding: 10px 20px;
 	border-radius: 10px;
 	background-color: white;
@@ -98,6 +98,10 @@ body{
 	border-radius: 50%;border: 1px solid rgb(220, 220, 220);
 	cursor: pointer;
 }
+.subIcon:hover {
+	transform: scale(1.5);
+	transition: transform 0.2s ease-in-out;
+}
 .educationIcon{padding: 15px 10px;opacity: 0.6;border: none;border-radius: 0;margin-right: 5px;}
 .postIcon{width: 40px;padding: 1px;margin-right: 10px;}
 .postHeading{font-weight: 600;}
@@ -114,4 +118,24 @@ progress{width: 200px;}
 	display: inline-block;
 	height: 4px;width: 4px;margin:0 10px 4px 10px;
 	background-color: rgb(0, 150, 255);
+}
+.actionBar{
+	width: 95%;margin-left: auto;margin-right: auto;padding: 5px;margin-top: 20px;
+	border-top: 1px solid rgb(200, 200, 200);border-bottom: 1px solid rgb(200, 200, 200);
+	display: flex;justify-content: center;align-content: center;text-align: center;
+	cursor: pointer;
+}
+.actionIcon{
+	height: 25px;vertical-align: middle;
+	padding: 10px;padding-right: 5px;
+	opacity: 0.85;
+}
+#commentIcon{height: 20px;opacity: 0.6;padding-right: 10px;}
+.likeButton,.commentButton{	width: 50%;padding: 2px;}
+.commentButton:hover, .likeButton:hover{
+	background-color: rgb(235, 235, 235);
+}
+.actionText{
+	font-size: medium;opacity: 0.85;
+	margin: auto;
 }
