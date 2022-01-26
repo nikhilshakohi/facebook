@@ -1,3 +1,4 @@
+html{scroll-behavior: smooth;}
 .outsideModal{
 	position: fixed;display: none;
 	width: 100%;height: 100%;
@@ -132,9 +133,11 @@ progress{width: 200px;}
 }
 #commentIcon{height: 20px;opacity: 0.6;padding-right: 10px;}
 .likeButton,.commentButton{	width: 50%;padding: 2px;}
+.likedButton{color: blue;background-color: rgba(0, 70, 250, 0.2);}
 .commentButton:hover, .likeButton:hover{
 	background-color: rgb(235, 235, 235);
 }
+.likedButton:hover{background-color: rgba(0, 70, 250, 0.3);}
 .actionText{
 	font-size: medium;opacity: 0.85;
 	margin: auto;
@@ -142,3 +145,4 @@ progress{width: 200px;}
 @media only screen and (max-width: 768px){
 	.indtabcontent{width: 90%;}
 }
+#funtabNav,#tipstabNav{display: none;}/*Did not Found Useful*/
