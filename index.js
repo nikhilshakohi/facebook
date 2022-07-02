@@ -15,7 +15,7 @@ function loadContent(){
 function checkPosition(){
 	//Skills Details
 	var skills=document.getElementsByClassName("skillLine");
-	if(document.getElementById("skillDetails").offsetTop<window.pageYOffset+700){
+	if(document.getElementById("skillDetails").offsetTop<window.pageYOffset+window.innerHeight){
 		for(var a=0;a<skills.length;a++){
 			skills[a].style.display="flex";
 		}
