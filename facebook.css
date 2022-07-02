@@ -68,13 +68,13 @@ body{
 	margin-top: 55px;left: 0;right: 0;
 }
 #profileCover{
-	width: 100%; margin-left: auto; margin-right: auto;
+	width: 70%; margin-left: auto; margin-right: auto;
 	display: block;min-width: 30%;max-width: 950px;
 	cursor: pointer;
 }
 #profileImage{
 	width: 175px;height: 175px;border-radius: 50%;position: relative;
-	margin-left: auto; margin-right: auto; margin-top: -150px;
+	margin-left: auto; margin-right: auto; margin-top: -120px;
 	display: block;
 	border: 4px white solid;border-radius: 50%;
 	cursor: pointer;
@@ -233,4 +233,7 @@ comment{
 }
 @media only screen and (max-width: 768px){
 	.indtabcontent{width: 90%;}
+	#profileImage{margin-top: -50px;width: 120px;height: 120px;}
+	#profileCover{width: 100%;}
+	#goUpButton{font-family: verdana;}
 }
