@@ -233,7 +233,7 @@ comment{
 }
 @media only screen and (max-width: 768px){
 	.indtabcontent{width: 90%;}
-	#profileImage{margin-top: -50px;width: 120px;height: 120px;}
+	#profileImage{margin-top: -50px;}
 	#profileCover{width: 100%;}
 	#goUpButton{font-family: verdana;}
 }

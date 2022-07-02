@@ -194,7 +194,7 @@ function getContactTabDetails(){
           '<form action="mailto:nikhilshakohi@gmail.com" method="post" enctype="text/plain" >'+
 				'<input class="inputBox" type="text" name="name" placeholder="Name" required><br>'+
 				'<input class="inputBox" type="email" name="email" placeholder="Email" required><br>'+
-				'<textarea class="inputBox inputTextarea" cols="40" type="text" name="comment" placeholder="What\'s on your mind?"></textarea> <br>'+
+				'<textarea class="inputBox inputTextarea" cols="30" type="text" name="comment" placeholder="What\'s on your mind?"></textarea> <br>'+
 				'<input class="inputBox sendButton" type="submit" value="Send">'+
 			'</form>'+
         '</div>'+

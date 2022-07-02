@@ -53,7 +53,7 @@ var projects='['+
 	'{"name":"oldBlog", "heading":"Old Blog", "content": " - Created just for fun..<br> - First Blog with HTML, CSS, JS.<br> - Tried for a Mobile Mimic Interface..", '+
 	'"link":"https://nikhilshakohi.github.io/firstSite", "githubLink":"https://github.com/nikhilshakohi/firstSite", "date":"30 Nov 2019 at 01:14", "languages":"HTML, CSS, JS", "contentID":"site7"},'+
 	
-	'{"name":"newBee", "heading":"Newbee (Old socialsite)", "content": " - An old project developed collaboratively while learning PHP.<br> - Couldn\'t find the hosted site (alternative created <a class=\'pageLink\' target=\'_blank\' href=\'https://socialsite14911.000webhostapp.com\'>socialsite</a> with more features.)", '+
+	'{"name":"newbee", "heading":"Newbee (Old socialsite)", "content": " - An old project developed collaboratively while learning PHP.<br> - Couldn\'t find the hosted site (alternative created <a class=\'pageLink\' target=\'_blank\' href=\'https://socialsite14911.000webhostapp.com\'>socialsite</a> with more features.)", '+
 	'"link":"https://github.com/nikhilshakohi/socialweb", "githubLink":"https://github.com/nikhilshakohi/socialweb", "date":"30 Nov 2019 at 01:14", "languages":"PHP, MySQL, HTML, CSS, JS", "contentID":"site8"}'+
 
 ']';
