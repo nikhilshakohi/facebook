@@ -160,7 +160,7 @@ function getInfoTabDetails(){
 			  '<div>'+
 			      item.content+
 			      '<br><br><img class="postImage" src="images/'+item.name+'Pic.png" onclick="showImage(\''+item.name+'Pic\')" alt="Project Picture">'+
-			      '<div class="postRefActionButtonsDiv"><div>Languages used: <span class="langauagesUsed">'+item.languages+'</span></div><div class="postRefActionButton"><a class="postRefActionButtonA" href="'+item.link+'" target="_blank">Visit Website</a><a class="postRefActionButtonB" href="'+item.githubLink+'" target="_blank">GitHub Code</a></div></div>'+
+			      '<div class="postRefActionButtonsDiv"><div class="postRefLanguages">Languages used: <span class="langauagesUsed">'+item.languages+'</span></div><div class="postRefActionButton"><a class="postRefActionButtonA" href="'+item.link+'" target="_blank">Visit Website</a><a class="postRefActionButtonB" href="'+item.githubLink+'" target="_blank">GitHub Code</a></div></div>'+
 			      '<div class="actionBar">'+
 				        '<div class="likeButton" id="'+item.contentID+'LikeButton" onclick="postAction(\''+item.contentID+'\',\'Like\')">'+
 				          '<img id="likeIcon" class="actionIcon" src="images/likeIcon.png"><span id="'+item.contentID+'LikeButtonText" class="actionText">Like</span>'+
