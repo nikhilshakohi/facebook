@@ -9,6 +9,7 @@ function loadContent(){
 	getConnectionDetails(); //Kept after Contacts Tab to fetch social connections details
 	getTipsTabDetails(); //React Tips Tab
 	setInterval(checkPosition,500); //For animation of skills
+	window.location.href="#profileName";
 }
 
 //For animation of skills and goToTop Button
