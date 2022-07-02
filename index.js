@@ -192,7 +192,7 @@ function getContactTabDetails(){
             '<div id="connectionDetailsInContact"></div>'+
           '</div>'+
           '<br>or post them directly through this form: <br><br>'+
-          '<form action="mailto:nikhilshakohi@gmail.com" method="post" enctype="text/plain" >'+
+          '<form action="mailto:nikhilshakohi@gmail.com" method="post" enctype="text/plain" autocomplete>'+
 				'<input class="inputBox" type="text" name="name" placeholder="Name" required><br>'+
 				'<input class="inputBox" type="email" name="email" placeholder="Email" required><br>'+
 				'<textarea class="inputBox inputTextarea" cols="30" type="text" name="comment" placeholder="What\'s on your mind?"></textarea> <br>'+
