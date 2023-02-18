@@ -32,29 +32,32 @@ var connections='['+
 ']';
 
 var projects='['+
-	'{"name":"thisSite", "heading":"This site", "content": "This is a Facebook profile page similar blog.<br> Created just to express anything could be done with CSS.", '+
-	'"link":"https://nikhilshakohi.github.io/facebook", "githubLink":"https://github.com/nikhilshakohi/facebook", "date":"30 Nov 2019 at 01:14", "languages":"HTML, CSS, JS", "contentID":"site1"},'+
+	'{"name":"thisSite", "heading":"This Site", "content": "This is a Facebook profile page similar blog.<br> Created just to express anything could be done with CSS.", '+
+	'"link":"https://nikhilshakohi.github.io/facebook", "githubLink":"https://github.com/nikhilshakohi/facebook", "date":"02 Jul 2022 at 12:52", "languages":"HTML, CSS, JS", "contentID":"site5"},'+
 	
+	'{"name":"facebookClone", "heading":"Facebook Clone", "content": " - A Facebook Clone site developed using React JS hosted in Firebase.<br> - One can signup, login and add posts with/without Images.<br> - Mobile Friendly Interface with light/dark modes.<br> - Login, Signup, Validations and Home page dashboard are added.", '+
+	'"link":"https://facebook-clone-96246.web.app/", "githubLink":"https://github.com/nikhilshakohi/facebookClone", "date":"24 Aug 2022 at 00:07", "languages":"React JS, Firebase, react-icons", "contentID":"site8"},'+
+
 	'{"name":"diary", "heading":"Personal Diary", "content": " - This is a Personal Diary developed using React JS, Material UI and hosted using Firebase.<br> - One can signup or login using email/google authentication.<br> - Mobile Friendly Interface with light/dark modes.<br> - Content can be edited/deleted.", '+
-	'"link":"https://diary-mark1.web.app", "githubLink":"https://github.com/nikhilshakohi/diary", "date":"30 Nov 2019 at 01:14", "languages":"React JS, Firebase, Material-UI", "contentID":"site2"},'+
+	'"link":"https://diary-mark1.web.app", "githubLink":"https://github.com/nikhilshakohi/diary", "date":"31 May 2022 at 16:20", "languages":"React JS, Firebase, Material-UI", "contentID":"site7"},'+
 	
 	'{"name":"toDoList", "heading":"To Do List", "content": " - A first project on React JS using various react concepts like router, context, hooks..<br> - One can signup or login using email/google authentication.<br> - User can add/edit/delete tasks.<br> - Pending tasks and Completed tasks can be viewed.", '+
-	'"link":"https://assist-mark2.web.app", "githubLink":"https://github.com/nikhilshakohi/toDoList", "date":"30 Nov 2019 at 01:14", "languages":"React JS, Firebase, Material-UI", "contentID":"site3"}, '+
+	'"link":"https://assist-mark2.web.app", "githubLink":"https://github.com/nikhilshakohi/toDoList", "date":"16 Mar 2022 at 03:24", "languages":"React JS, Firebase, Material-UI", "contentID":"site6"}, '+
 	
 	'{"name":"socialsite", "heading":"Social Site", "content": " - The best of PHP - a social media website with refreshless updates using AJAX.<br> - One can signup using E-mail ID.<br> - We can add posts, write content and even add images. <br> - One can search for friends and send them friend Requests. Upon their confirmation, they can be friends.<br> - Any logged in user can comment on a post or can like a post or share it.<br> - Another best thing is, the MESSENGER! Friends can text each other refreshless..<br> - One can also share the posts to others who dont have an account..", '+
-	'"link":"https://socialsite14911.000webhostapp.com", "githubLink":"https://github.com/nikhilshakohi/socialsite", "date":"30 Nov 2019 at 01:14", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site4"}, '+
+	'"link":"https://socialsite14911.000webhostapp.com", "githubLink":"https://github.com/nikhilshakohi/socialsite", "date":"11 Oct 2021 at 12:43", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site4"}, '+
 	
 	'{"name":"expenseManager", "heading":"Expense Manager", "content": " - The most handy web application for managing daily expenses.<br> - Simple, Fast and User friendly Interface.<br> - Wallet feature available, so one can check all their current accounts balance anytime.<br> - Faster search and filter results.<br> - Statement Download option available in excel format with overall statistics.<br> - All these features with refreshless updates using AJAX.",  '+
-	'"link":"http://expensemanager14911.000webhostapp.com", "githubLink":"https://github.com/nikhilshakohi/expensemanager", "date":"30 Nov 2019 at 01:14", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site5"}, '+
+	'"link":"http://expensemanager14911.000webhostapp.com", "githubLink":"https://github.com/nikhilshakohi/expensemanager", "date":"08 Nov 2021 at 12:07", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site3"}, '+
 	
 	'{"name":"taskPlanner", "heading":"Task Planner", "content": " - Planning is an important thing to maintain our life in balance.<br> - Scheduling daily tasks and repetitive tasks at once.<br> - Redoing tasks and getting number of times the task was Completed.<br> - Checking future tasks or previous day tasks and their status.<br> - Getting task history of selected task.<br> - User can edit/delete task.<br> - Refreshless and smooth interface",  '+
-	'"link":"http://taskmanager14911.000webhostapp.com/", "githubLink":"https://github.com/nikhilshakohi/taskplanner", "date":"30 Nov 2019 at 01:14", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site6"},'+
+	'"link":"http://taskmanager14911.000webhostapp.com/", "githubLink":"https://github.com/nikhilshakohi/taskplanner", "date":"16 Jan 2022 at 02:09", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site2"},'+
 	
 	'{"name":"oldBlog", "heading":"Old Blog", "content": " - Created just for fun..<br> - First Blog with HTML, CSS, JS.<br> - Tried for a Mobile Mimic Interface..", '+
-	'"link":"https://nikhilshakohi.github.io/firstSite", "githubLink":"https://github.com/nikhilshakohi/firstSite", "date":"30 Nov 2019 at 01:14", "languages":"HTML, CSS, JS", "contentID":"site7"},'+
+	'"link":"https://nikhilshakohi.github.io/firstSite", "githubLink":"https://github.com/nikhilshakohi/firstSite", "date":"04 Aug 2019 at 11:47", "languages":"HTML, CSS, JS", "contentID":"site1"},'+
 	
 	'{"name":"newbee", "heading":"Newbee (Old socialsite)", "content": " - An old project developed collaboratively while learning PHP.<br> - Couldn\'t find the hosted site (alternative created <a class=\'pageLink\' target=\'_blank\' href=\'https://socialsite14911.000webhostapp.com\'>socialsite</a> with more features.)", '+
-	'"link":"https://github.com/nikhilshakohi/socialweb", "githubLink":"https://github.com/nikhilshakohi/socialweb", "date":"30 Nov 2019 at 01:14", "languages":"PHP, MySQL, HTML, CSS, JS", "contentID":"site8"}'+
+	'"link":"https://github.com/nikhilshakohi/socialweb", "githubLink":"https://github.com/nikhilshakohi/socialweb", "date":"14 Oct 2018 at 06:58", "languages":"PHP, MySQL, HTML, CSS, JS", "contentID":"site0"}'+
 
 ']';
 
