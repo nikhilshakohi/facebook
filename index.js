@@ -115,7 +115,9 @@ function getWorkDetails(){
 	var worksDetails=JSON.parse(works);
 	worksDetails.map((item,id) => {
 		workMap=workMap+
-		'<div class="aboutHeading">'+item.type+'</div>'+
+		(item.type === 'OldWork' ? 
+		'' : 
+		'<div class="aboutHeading">'+item.type+'</div>') +
           '<div class="aboutLine moveUp workDetails">'+
             '<img class="'+item.class+'" src="images/'+item.icon+'.png">'+
             '<div>'+

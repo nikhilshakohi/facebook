@@ -1,5 +1,6 @@
 var works='['+
-	'{"type":"Work", "icon":"tcsIcon", "designation":"System Engineer at Tata Consultancy Services", "period":"Jul 2019 - present", "class":"subIcon"},'+
+	'{"type":"Work", "icon":"infosysIcon", "designation":"Associate Consultant at Infosys Limited", "period":"Dec 2022 - present", "class":"subIcon"},'+
+	'{"type":"OldWork", "icon":"tcsIcon", "designation":"System Engineer at Tata Consultancy Services", "period":"Jul 2019 - Dec 2022", "class":"subIcon"},'+
 	'{"type":"University", "icon":"collegeIcon", "designation":"Electronics and Communication Engineer at Andhra University", "period":"Jul 2015 - Jun 2019", "class":"subIcon"},'+
 	'{"type":"Intermediate", "icon":"interCollegeIcon", "designation":"MPC at Ascent Classes", "period":"Jul 2013 - Jun 2015", "class":"subIcon"},'+
 	'{"type":"High School", "icon":"educationIcon", "designation":"State Board at Balaji Public School", "period":"Jun 2005 - Jun 2013", "class":"subIcon educationIcon"}'+
