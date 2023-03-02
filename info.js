@@ -49,10 +49,10 @@ var projects='['+
 	'"link":"https://socialsite14911.000webhostapp.com", "githubLink":"https://github.com/nikhilshakohi/socialsite", "date":"11 Oct 2021 at 12:43", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site4"}, '+
 	
 	'{"name":"expenseManager", "heading":"Expense Manager", "content": " - The most handy web application for managing daily expenses.<br> - Simple, Fast and User friendly Interface.<br> - Wallet feature available, so one can check all their current accounts balance anytime.<br> - Faster search and filter results.<br> - Statement Download option available in excel format with overall statistics.<br> - All these features with refreshless updates using AJAX.",  '+
-	'"link":"http://expensemanager14911.000webhostapp.com", "githubLink":"https://github.com/nikhilshakohi/expensemanager", "date":"08 Nov 2021 at 12:07", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site3"}, '+
+	'"link":"https://expensemanager149111.000webhostapp.com/", "githubLink":"https://github.com/nikhilshakohi/expensemanager", "date":"08 Nov 2021 at 12:07", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site3"}, '+
 	
 	'{"name":"taskPlanner", "heading":"Task Planner", "content": " - Planning is an important thing to maintain our life in balance.<br> - Scheduling daily tasks and repetitive tasks at once.<br> - Redoing tasks and getting number of times the task was Completed.<br> - Checking future tasks or previous day tasks and their status.<br> - Getting task history of selected task.<br> - User can edit/delete task.<br> - Refreshless and smooth interface",  '+
-	'"link":"http://taskmanager14911.000webhostapp.com/", "githubLink":"https://github.com/nikhilshakohi/taskplanner", "date":"16 Jan 2022 at 02:09", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site2"},'+
+	'"link":"https://taskmanager14911.000webhostapp.com/", "githubLink":"https://github.com/nikhilshakohi/taskplanner", "date":"16 Jan 2022 at 02:09", "languages":"PHP, MySQL, HTML, CSS, JS, AJAX", "contentID":"site2"},'+
 	
 	'{"name":"oldBlog", "heading":"Old Blog", "content": " - Created just for fun..<br> - First Blog with HTML, CSS, JS.<br> - Tried for a Mobile Mimic Interface..", '+
 	'"link":"https://nikhilshakohi.github.io/firstSite", "githubLink":"https://github.com/nikhilshakohi/firstSite", "date":"04 Aug 2019 at 11:47", "languages":"HTML, CSS, JS", "contentID":"site1"},'+
